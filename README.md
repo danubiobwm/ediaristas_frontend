@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Semana Multi Stack - Front End
 
-## Getting Started
+### Checklist do projeto Front-end da Semana Multi Stack TreinaWeb
 
-First, run the development server:
+🔗 [Repositório - GitHub]()
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Checklist do Ambiente
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [X]  Instalar Node.js
+    - 📥 [Download](https://nodejs.org/en/)
+    - 🔗 [Guia de Instalação](https://www.treinaweb.com.br/blog/instalacao-do-node-js-windows-mac-e-linux/)
+- [X]  Instalar VS Code
+    - 📥 [Download](https://code.visualstudio.com/)
+    - 🔗 [Guia de Instalação](https://www.treinaweb.com.br/blog/instalacao-do-vs-code-no-windows-linux-e-macos/)
+- [X]  Instalar extensão Styled Components
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Checklist da Criação do Projeto
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- [X]  Iniciar o projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    `npx create-next-app ediaristas` 
 
-## Learn More
+- [X]  Criar arquivo de configuração do TypeScript `tsconfig.json`
+- [X]  Instalar TypeScript e tipagem do React
 
-To learn more about Next.js, take a look at the following resources:
+    `npm i typescript @types/react`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [X]  Iniciar o servidor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Checklist da Organização do Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [X]  Criar pasta `src` na raiz do projeto
+- [X]  Jogar pasta `pages` em `src`
+- [X]  Criar pasta `ui` e `data` em `src`
+- [X]  Arrastar pasta `styles` para `ui`
+- [X]  Criar pasta `components` em `ui`
+- [X]  Criar pasta `themes` em `ui`
+- [X]  Criar pasta `@types` em `data`
+- [X]  Criar pasta `services` em `data`
+- [X]  Criar pasta `hooks` em `data`
+- [X]  Mudar arquivos `.js` para `.tsx`
+- [X]  Apagar pasta `api`
+- [X]  Simplificar caminhos no `tsconfig.json`
+- [X]  Arrumar caminhos da importação em `index.tsx`
+- [X]  Apagar arquivo `Home.module.css`
+- [X]  Arrumar caminhos da importação em `_app.tsx`
+- [X]  Jogar imagens na pasta `public`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Checklist das Configurações do Projeto
+
+- [X]  Instalar dependências
+
+    `npm i @material-ui/core@next @emotion/react @emotion/styled axios react-input-mask`
+
+- [ ]  Configurar tema
+    - [ ]  Criar arquivo do Tema
+    - [ ]  🎨 Tema (clique aqui para abrir)
+    - [ ]  Adicionar Provider
+    - [ ]  Adicionar Fonte
+    - [ ]  Definir fonte no CSS
+
